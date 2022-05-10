@@ -1,3 +1,4 @@
+/*https://getbootstrap.com/docs/5.1/examples/features/*/ 
 import './Main_style.css'
 const Main = () => {
 

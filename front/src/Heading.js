@@ -27,8 +27,8 @@ function Heading(props) {
         <li><Link to = "/About" className={"nav-link px-2  " + (props.title === 'About' ? 'link-dark' : 'link-secondary')}  onClick={changeTitle}>About</Link></li>
       </ul>
       <div className="col-md-3 text-end">
-        <button type="button" className="btn btn-outline-primary me-2">Login</button>
-        <button type="button" className="btn btn-primary">Sign-up</button>
+        <Link to="/Login" className="btn btn-outline-primary me-2">Login</Link>
+        <Link to="/Join" className="btn btn-primary">Sign-up</Link>
       </div>
     </header>
   </div>
